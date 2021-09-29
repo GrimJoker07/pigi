@@ -1,18 +1,241 @@
-.container
-{
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
     display: flex;
     align-items: center;
-     /* justify-content: center; */
-    flex-direction: column;
-}
-.container div
-{   
     background: #2D4CEF;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
-    width: 450px; 
+    width: 450px;
     height: 350px;
-    margin: 200px;
+    margin: 0 auto;
+}
+
+.auth {
+    width: 35px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-left: 135px;
+    color: #FFFFFF;
+
+}
+
+.register{
+    margin: 0 auto;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 374px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.sign_in{
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 172px;
+    height: 50px;
+    margin-left: 100px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.container {
+    display: flex;
+    align-items: center;
+    background: #2D4CEF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 1363px;
+    height: 956px;  
+    margin: 0 auto;
+}
+.brand_name
+{
+width: 149px;
+height: 56px;
+margin: 0 auto;
+margin-left: 1150px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+}
+.sms1
+{
+    width: 637px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.nn1
+{
+    width: 66px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     
-    padding: 20px
+    color: #E3E3E3;
+}
+.sms2
+{
+    width: 112px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.nn2
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E3E3E3;
+    width: 81px;
+    height: 28px;
+}
+.sms3
+{
+    width: 357px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.nn3
+{
+    width: 88px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #E3E3E3;
+}
+.sms4
+{
+    width: 637px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+.nn4
+{
+    width: 66px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E3E3E3;
+
+}
+.sms5
+{
+    width: 112px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+.nn5
+{
+    width: 81px;
+    height: 28px;       
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E3E3E3;
+
+}
+.sms6
+{
+    width: 357px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.nn6
+{
+    width: 88px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E3E3E3;
+
+}
+.mest
+{
+width: 889px;
+height: 61px;
+background: #FFFFFF;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.send
+{
+width: 67px;
+height: 51px;
+border-radius: 20px;
+background: #FFFFFF;
+}
+.txt
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    align-items: center;
 }
